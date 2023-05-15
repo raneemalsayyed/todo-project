@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B7E74;
+    align-items: center;
+    margin-bottom: 90px;
+    background: linear-gradient(0deg, rgba(69,69,69,100) 0%, rgba(236,205,180,100) 100%);
+}
+
+.header h1 {
+    color: white;
+}
+
+.logo-website {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: white;
+}
+
+.header .search {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    color: white;
+    padding-right: 10px;
+}
+
+main .table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 40px;
+    background-color: #E7DCCC;
+    width: 700px;
+    margin: auto;
+}
+
+main .table thead tr {
+    display: flex;
+    gap: 50px;
+    color: brown;
+    padding-bottom: 10px;
+    border: solid 1px black;
+    background-color: #454545;
+    padding-top: 5px;
+    color: white;
+}
+
+
+main .table thead,
+main .table tbody {
+width: 93%;
+}
+
+main .table thead tr th:first-of-type,
+main .table thead tr td:first-of-type,
+main .table tbody tr td:first-of-type {
+width: 35%
+}
+
+main .table thead tr th,
+main .table thead tr td,
+main .table tbody tr td {
+width: 65%
+}
+
+
+main .table tbody tr {
+    display: flex;
+    gap: 50px;
+    margin: 5px;
+}
+main .table tbody tr,
+main .table tbody td {
+border-radius: 10px;
+border-collapse: collapse;
+
+}
+
+main .table tbody td {
+    border: solid 1px black; }
+
+main .table tbody td,
+main .table thead th {
+    width: 136px;
+}
+
+main .table caption h3 {
+   
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+
+main .connect {
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 10px;
+
+}
+main .table .tr2 td {
+    background-color: white;
+}
+main .table .tr1 td {
+    background-color: #ECCDB4;
+
+}
+main .table .tr3 td {
+    background-color: #ECCDB4;
+
+}
+main .table .tr1 .td1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .table .tr2 .td2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .table .tr3 .td3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.rectangle{
+    background-color: #ECCDB4;
+    margin-top: 90px;
+    height: 150px;
+}
