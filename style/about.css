@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B7E74;
+    align-items: center;
+    margin-bottom: 80px;
+    background: linear-gradient(0deg, rgba(69, 69, 69, 100) 0%, rgba(236, 205, 180, 100) 100%);
+}
+
+.header h1 {
+    color: white;
+}
+
+.logo-website {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: white;
+}
+
+.header .search {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    color: white;
+    padding-right: 10px;
+}
+
+main .connect {
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.personal {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.personal fieldset {
+    padding: 25px;
+    font-size: larger;
+    background-color: #E7DCCC;
+    position: relative;
+    height: 300px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal fieldset legend {
+    border: solid #454545;
+    background-color: #454545;
+    padding: 10px;
+    position: absolute;
+    top: -40px;
+    left: 13px;
+    color: white;
+}
+
+.personal fieldset .ju a,
+.personal fieldset .ltuc a {
+    color: black;
+}
+
+
+.form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    padding: 70px;
+    background-color: #ECCDB4;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #454545;
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
