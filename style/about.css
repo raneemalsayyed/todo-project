@@ -110,3 +110,28 @@ main .connect {
     cursor: pointer;
     border-radius: 5px;
 }
+
+main .circle1 {
+    position: absolute;
+    top: -29px;
+    left: -352Px;
+    z-index: -1;
+    /* background-color: #454545; */
+    border: solid 30px #454545;
+    border-radius: 50%;
+   height: 200px;
+   width: 6600px;
+}
+
+main .circle2 {
+    position: absolute;
+    top: -31px;
+    left: -352Px;
+    z-index: -1;
+    /* background-color: #454545; */
+    border: solid 5px #ECCDB4;
+    border-radius: 50%;
+   height: 200px;
+   width: 6600px;
+}
+
