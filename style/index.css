@@ -45,6 +45,30 @@
     color: white;
     padding-right: 10px;
 }
+main .circle1 {
+    position: absolute;
+    top: -29px;
+    left: -352Px;
+    z-index: -1;
+    /* background-color: #454545; */
+    border: solid 30px #454545;
+    border-radius: 50%;
+   height: 200px;
+   width: 6600px;
+}
+
+
+main .circle2 {
+    position: absolute;
+    top: -31px;
+    left: -352Px;
+    z-index: -1;
+    /* background-color: #454545; */
+    border: solid 5px #ECCDB4;
+    border-radius: 50%;
+   height: 200px;
+   width: 6600px;
+}
 
 main .table {
     display: flex;
@@ -99,6 +123,7 @@ main .table tbody td {
 border-radius: 10px;
 border-collapse: collapse;
 
+
 }
 
 main .table tbody td {
@@ -107,6 +132,7 @@ main .table tbody td {
 main .table tbody td,
 main .table thead th {
     width: 136px;
+    
 }
 
 main .table caption h3 {
@@ -132,6 +158,7 @@ main .table .tr1 td {
 }
 main .table .tr3 td {
     background-color: #ECCDB4;
+   
 
 }
 main .table .tr1 .td1 {
